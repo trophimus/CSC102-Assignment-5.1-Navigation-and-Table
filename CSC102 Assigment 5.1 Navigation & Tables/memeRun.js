@@ -8,7 +8,7 @@
 // memeRun.js
 // MemeImage is the image to be animated, use arrow keys to move
 document.addEventListener('keydown', function (event) {
-    const img = document.getElementById('movingImage');
+    const img = document.getElementById('memeImage');
     let left = img.offsetLeft;
     let top = img.offsetTop;
 
