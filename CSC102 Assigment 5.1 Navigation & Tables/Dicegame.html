@@ -1,0 +1,53 @@
+<!--Week Two: CSC102 Assignment 2.1-->
+<!--Dice Game with Animation vide-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Viewport" content="width=device-width, initial-scale = 1.0">
+    <title> Quarks Casino - Craps Game"</title>
+    <!-- <video id="robots" width="450" height="340" controls>
+        <source src="id" type="video/mp4">  Robot animation file-->
+    <!--</video>-->
+    <link rel="stylesheet" type="styles.css" href="AnimateWebpage2.css">
+    </link>
+    <script src="diceGamecode.js"></script>
+    <!--Hides Video-->
+    <style>
+        #winVideo {
+            display: none;
+        }
+    </style>
+</head>
+
+  <body style="background-color: lightblue;">
+
+    <h1>Welcome to Quarks Casino!</h1><!-- Title of the game-->
+    <!-- Display Video on Webpage-->
+    <div id="container">
+        <!-- <iframe id="robotVideo" width="560" height="315" src="Adapt-O-Robotvideo.mp4" title="ROBOT VIDEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+        <video id="robotVideo" width="560" height="315" controls>
+            <source src="Adapt-O-Robotvideo.mp4" type="video/mp4">
+            
+        </video>
+
+        <div id="buttons">
+            <button onclick="playCraps()">Role Dice!</button> <!--Button named 'Role Dice!-->
+            <button onclick="Restart()">Restart Game</button>
+        </div>
+    </div>
+    <div id="gameResult"></div>
+    <nav><h3>
+        <ul>
+            <li><a href="https://index.html">Home</a></li><br>
+            <li><a href="https://boards.html">Boards</a></li><br>
+            <li><a href="https://Secretcode.html">Secretcode</a></li><br>
+            <li><a href="https://Palindromegame.html">Palindrome Game</a></li><br>
+            <li><a href="https://indexMeme.html">Animated Meme</a></li><br>
+        </ul>
+        </h3>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+ /* body formatting */
+ body {
+     font-family: Arial, sans-serif;
+     text-align: center;
+    /* background-color: aquamarine; */
+     padding: 20px;
+ }
+
+ /* button formatting, including hover */
+ input,
+ button {
+     margin: 10px;
+     padding: 8px;
+     font-size: 16px;
+ }
+
+ button {
+     background-color: #4CAF50;
+     /* Change as needed */
+     color: black;
+     /* Text color */
+     border: 8px solid black;
+     /* Thick border */
+     cursor: pointer;
+     /* Changes cursor to a hand symbol when hovering over the button */
+ }
+
+ button:hover {
+     background-color:goldenrod;
+     /* Slightly different color on hover */
+ }
+ 
+ p {
+     background-size: cover;
+     /* Cover the entire area of the element */
+     background-repeat: no-repeat;
+     /* Prevent repeating the image */
+     min-height: 300px;
+     /* Minimum height to display the image */
+     width: 100%;
+     /* Full width */
+ }
+ /* text formatting*/
+ #textBottomCenter {
+     position: absolute;
+     bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     text-align: center;
+     font-size: 80px;
+     /* Adjust the size as needed */
+     color: darkorange;
+ }
+
+ 

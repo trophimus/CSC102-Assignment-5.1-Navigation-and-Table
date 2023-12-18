@@ -1,0 +1,34 @@
+
+footer{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    text-align: center;
+}
+
+button
+{
+    color: darkseagreen;
+    border-color:firebrick;
+    border-width: 100px;
+    border-radius: 50px;
+    border-radius: 50px;
+    margin-left: 20px;
+        /* Add some space between the video and buttons */
+        display: flex;
+        flex-direction: column;
+        /* Stack buttons vertically */
+        gap: 10px;
+}
+nav{
+    text-align: center;
+}
+
+/*.video-button-container {
+    display: flex;
+    align-items: center;
+    /* Align items vertically 
+}     */
+
+
+
